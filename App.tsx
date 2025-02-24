@@ -7,9 +7,9 @@ function App() {
   console.log("rodando")
   return (
     <NavBarProvider>
-      <div>
+      
         <Navbar />
-      </div>
+      
     </NavBarProvider>
 
 

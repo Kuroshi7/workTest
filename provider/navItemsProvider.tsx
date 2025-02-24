@@ -43,7 +43,19 @@ export function NavBarProvider({ children }: NavBarProviderType) {
         {
           "label": "About",
           "value": "about"
+        },
+        {
+          "label": "teste",
+            "value": "teste",
+             "submenu":[
+                {"label":"subTeste" ,"value": "subTeste"}
+             ]  
+        },
+        {
+          "label": "renderin",
+          "value": "renderin"
         }
+
       ];
       
 
