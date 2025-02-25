@@ -1,18 +1,19 @@
 import Navbar from "./components/Navbar"
-import { NavBarProvider } from "./provider/navItemsProvider"
+import { NavBarProvider } from "./components/provider/navItemsProvider"
+import { Provider } from "./components/ui/provider"
+
+
 
 
 function App() {
 
   console.log("rodando")
   return (
-    <NavBarProvider>
-      
+    <Provider>
+      <NavBarProvider>
         <Navbar />
-      
-    </NavBarProvider>
-
-
+      </NavBarProvider>
+    </Provider>
   )
 }
 
